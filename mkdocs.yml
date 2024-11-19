@@ -1,0 +1,14 @@
+site_name: Library Management System Docs
+nav:
+  - Home: index.md
+  - Library Module:
+      - Overview: library_module.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: false
+theme:
+  name: material  # Optionally use the Material theme (install with `pip install mkdocs-material`)
